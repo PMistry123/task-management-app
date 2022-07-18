@@ -15,7 +15,7 @@ ng test
 
 Installed all packages, AngularMaterial UI library, All necessary version changes in my machine.
 
-* In two hours I am able finish Adding task, adding details component through angular router, task filter(simple search task) started with simple assign task functionality. Including some necessary UI changes. 
+* In two hours, I am able finish Adding task, adding details component through angular router, task filter(simple search task) started with simple assign task functionality. Including some necessary UI changes. 
 * Error handling - I can use form controller to add task and perform Error Handling with form controller though it is time consuming for a simple App here, I have decided to go for custom error handling which is on task component, Just to demonstrate. 
 * StateManagement NGRX, I can use for a big applications where we are sending and calling data from the database through the APIs and doing state-management of data display on realtime with changes but here it will be time consuming for a simple App. 
 * Wrote simple test cases just to demonstrate. 
@@ -39,4 +39,4 @@ Comment this line
 * You can view but can not search for the newly added task on dashboard if you are using hardcode array unless it is hardcoded into array in coading file backend.service.ts 
 * You can view and can search for the newly added task on dashboard if you are fetching data from localstorage or from database. 
 
-* Please provide me feedback on this and let me know if you want me to demonstrate more UI skills, or StateManagement and finish app using more different things as it will require extra hours of work. here, I am delivering what is required as per my understanding. 
+* Please provide me feedback on this and let me know if you want me to demonstrate more UI skills, or StateManagement and finish app using more different things as it will require extra hours of work. here, I am delivering what is required and priority as per my understanding.
