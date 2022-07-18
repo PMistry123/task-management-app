@@ -36,6 +36,7 @@ Comment this line
      this.taskList = this.backend.taskList; 
 ``
 
+##
 * You can view but can not search for the newly added task on dashboard if you are using hardcode array unless it is hardcoded into array in coding file backend.service.ts
 
 * You can view and search for the newly added task on the dashboard if you are fetching data from localstorage or from a database. 
