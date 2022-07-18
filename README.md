@@ -22,7 +22,7 @@ Installed all packages, AngularMaterial UI library, All necessary version change
 * Assign task functionality is not fully finished yet because it require extra hours as it is not possible to finish whole task management app in two hours to assign task to user and fetch user information through id and make login for user and they can than change status of task i.e task in progress or completed and change status of task back on dashboard.
 
 
-## Notes
+##
 
 * Steps to fetch data from local storage instead of hardcode array from backend.service.ts   
 
