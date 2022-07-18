@@ -24,7 +24,7 @@ Installed all packages, AngularMaterial UI library, All necessary version change
 
 ## Notes
 
-* Steps to see data coming form local storage instead of hardcode array from backend.service.ts   
+* Steps to fetch data from local storage instead of hardcode array from backend.service.ts   
 
 
 Uncomment code in  dashboard.component.ts 
