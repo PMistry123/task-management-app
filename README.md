@@ -1,36 +1,42 @@
-# Coding Assignment
-
-The goal is to demonstrate your ability to build features and your coding style. Given the limited time, you will have to decide what to prioritize, balancing clean code and completing the assignment.
-
-The app is small but one could easily spend many days working on it: creating a beautiful UI, testing every method or carefully optimizing each line of code. Do as much as you can in two hours and share the results.
 
 ## Getting Started
-
-*Do not fork* this repo. Instead download the zip.
-
-Then install the packages and you're good to go!
 
 ```bash
 npm install
 
 # run app
-npm run start
+ng serve
 
 # run tests
-npm run test
+ng test
 ```
 
 ## Tasks managing application
 
-Build a task managing app, where the user can add, filter, assign, and complete tasks.
+Installed all packages, AngularMaterial UI library, All necessary version changes in my machine.
 
-* The app should have two screens: the list screen and the details screen. Use the Angular router to manage the
-  transitions between them.
-* Use your favorite library for state management, you can use a different approach if you think it fits better.
-* Write a few tests. The goal here is not to build a production-quality app, so don't test every single detail.
-  Two or three tests should be good enough.
-* Don't forget about error handling and race conditions.
+* In two hours I am able finish Adding task, adding details component through angular router, task filter(simple search task) started with simple assign task functionality. Including some necessary UI changes. 
+* Error handling - I can use form controller to add task and perform Error Handling with form controller though it is time consuming for a simple App here, I have decided to go for custom error handling which is on task component, Just to demonstrate. 
+* StateManagement NGRX, I can use for a big applications where we are sending and calling data from the database through the APIs and doing state-management of data display on realtime with changes but here it will be time consuming for a simple App. 
+* Wrote simple test cases just to demonstrate. 
+* Assign task functionality is not fully finished yet because it require extra hours as it is not possible to finish whole task management app in two hours to assign task to user and fetch user information through id and make login for user and they can than change status of task i.e task in progress or completed and change status of task back on dashboard.
 
-## Submitting your solution
 
-Please send us the link to your repo on GitHub, Gitlab, etc. Please also indicate approximately how long you spent on the submission.
+## Notes
+
+* Do below steps to see data coming form local storage instead of hardcode array from backend.service.ts   
+
+
+Uncomment below code in  dashboard.component.ts 
+``
+    this.backend.taskList = this.taskList = JSON.parse(localStorage.getItem('taskArray')); 
+``
+Comment this line
+``  
+     this.taskList = this.backend.taskList; 
+``
+
+* You can view but can not search for the newly added task on dashboard if you are using hardcode array unless it is hardcoded into array in coading file backend.service.ts 
+* You can view and can search for the newly added task on dashboard if you are fetching data from localstorage or from database. 
+
+* Please provide me feedback on this and let me know if you want me to demonstrate more UI skills, or StateManagement and finish app using more different things as it will require extra hours of work. here, I am delivering what is required as per my understanding. 
