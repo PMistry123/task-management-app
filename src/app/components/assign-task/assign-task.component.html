@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>User List</h1>
+<div mat-dialog-content>
+    <p>Please select user</p>
+    <span class="example-list-section">
+        <ul>
+            <li *ngFor="let user of userList">
+                <mat-checkbox [value]="user.id" [(ngModel)]="user.checked" (change)="updateAllComplete($event,user.id)">
+                    {{user.name}}
+                </mat-checkbox>
+            </li>
+        </ul>
+    </span>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="thanks($event)">No Thanks</button>
+    <button mat-button (click)="submit(data)" cdkFocusInitial>Submit</button>
+</div>

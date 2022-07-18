@@ -1,0 +1,18 @@
+<h1 mat-dialog-title>Hi Team</h1>
+<div mat-dialog-content>
+    <p>Please enter your task Detail?</p>
+    <mat-form-field appearance="fill">
+        <mat-label>Task Name</mat-label>
+        <input matInput [(ngModel)]="taskName">
+    </mat-form-field>
+    <small *ngIf="taskName == '' && error "> Please enter Task name </small>
+    <mat-form-field appearance="fill">
+        <mat-label>Task Description</mat-label>
+        <input matInput [(ngModel)]="taskDescription">
+    </mat-form-field>
+    <small *ngIf="taskDescription == '' && error "> Please enter Task Description </small>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="thanks($event)">No Thanks</button>
+    <button mat-button (click)="submit($event)" cdkFocusInitial>Submit</button>
+</div>

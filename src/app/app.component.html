@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+  <h1>
+    {{title}}
+  </h1>
+  <button mat-button routerLink="/dashboard">Dashboard</button>
+  <button (click)="openTask()" mat-button class="task-cls">Add Task</button>
+</mat-toolbar>
+<router-outlet></router-outlet>

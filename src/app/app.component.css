@@ -1,0 +1,22 @@
+.task-cls{
+    position: absolute;
+    right: 11px;
+    background: #a565e5;
+}
+.assign-cls{
+    position: absolute;
+    right: 11px;
+    color: aliceblue;
+    background: #a565e5;
+}
+.assign-btn-cls{
+    color: black;
+    background: #88de25;
+}
+.detail-btn-cls{
+    color: aliceblue;
+    background: #a668e4;
+}
+table {
+    width: 100%;
+  }

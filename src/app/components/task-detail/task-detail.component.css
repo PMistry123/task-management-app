@@ -1,0 +1,11 @@
+mat-card {
+    text-align: center;
+}
+
+mat-card-title {
+    background:rgb(142, 127, 255);
+}
+
+mat-card-subtitle {
+    background: aquamarine;
+}
