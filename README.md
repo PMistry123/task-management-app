@@ -24,10 +24,10 @@ Installed all packages, AngularMaterial UI library, All necessary version change
 
 ## Notes
 
-* Do below steps to see data coming form local storage instead of hardcode array from backend.service.ts   
+* Steps to see data coming form local storage instead of hardcode array from backend.service.ts   
 
 
-Uncomment below code in  dashboard.component.ts 
+Uncomment code in  dashboard.component.ts 
 ``
     this.backend.taskList = this.taskList = JSON.parse(localStorage.getItem('taskArray')); 
 ``
